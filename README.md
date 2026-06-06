@@ -27,13 +27,13 @@ npm install
 
 ### 3. Set up environment variables
 ```bash
-cp .env.example .env
+create .env file at root of the project
 ```
 
 Open `.env` and update the values:
 ```env
 PORT=5000
-MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/crm-db
+MONGO_URI=mongodb://aakashvishwakarma059_db_user:9IDXCBYhhz4DCyvV@ac-kvbfnum-shard-00-00.iemv0gr.mongodb.net:27017,ac-kvbfnum-shard-00-01.iemv0gr.mongodb.net:27017,ac-kvbfnum-shard-00-02.iemv0gr.mongodb.net:27017/?replicaSet=atlas-sl9ca6-shard-0&ssl=true&authSource=admin
 ```
 
 ### 4. Start the server

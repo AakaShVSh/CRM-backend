@@ -6,7 +6,7 @@ const customerController = require("./controllers/customer.controller");
 
 const corsOptions = {
   origin: ["http://localhost:5173", "https://crm-frontend-grjk.onrender.com"],
-  methods: ["GET", "POST", "Patch", "DELETE"],
+  methods: ["GET", "POST", "PUT", "DELETE", "PATCH"], 
   allowedHeaders: ["Content-Type", "Authorization"],
   credentials: true,
 };
